@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/fwzna/IdeaProjects/PROJECT_AUTOMATION/selenium">
+        <classes><class name="Data_Driven.FileDriven">
+            <methods><include name="readFromPropertiesFile"/></methods>
+        </class><class name="Data_Driven.TestCase"><methods>
+            <include name="goToRegisterPage"/>
+            <include name="registerPage"/></methods>
+        </class><class name="Test.HPTest">
+            <methods><include name="goToRegisterPage"/>
+                <include name="registerPage"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
